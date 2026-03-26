@@ -1,0 +1,8 @@
+setup.py
+number_converter/__init__.py
+number_converter.egg-info/PKG-INFO
+number_converter.egg-info/SOURCES.txt
+number_converter.egg-info/dependency_links.txt
+number_converter.egg-info/top_level.txt
+number_converter/srv/__init__.py
+number_converter/srv/_roman_to_decimal.py

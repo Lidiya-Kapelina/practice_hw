@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (-) JobUnselected: {'identifier': 'number_converter_py'}
+[0.000250] (number_converter) JobQueued: {'identifier': 'number_converter', 'dependencies': OrderedDict()}
+[0.000673] (number_converter) JobStarted: {'identifier': 'number_converter'}
+[0.008015] (number_converter) JobProgress: {'identifier': 'number_converter', 'progress': 'cmake'}
+[0.008711] (number_converter) JobProgress: {'identifier': 'number_converter', 'progress': 'build'}
+[0.009199] (number_converter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/li/ros2_hw2/build/number_converter', '--', '-j5', '-l5'], 'cwd': '/home/li/ros2_hw2/build/number_converter', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'li', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/li/ros2_hw2/install/number_converter/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/li', 'OLDPWD': '/home/li/ros2_hw2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2234', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/li/ros2_hw2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'li', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'li', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/li:@/tmp/.ICE-unix/2201,unix/li:/tmp/.ICE-unix/2201', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4b0f3d75_514b_4b92_b6f6_4a045af1b4ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4D3PM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.128', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/li/ros2_hw2/install/number_converter_py:/home/li/ros2_hw2/install/number_converter:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/li/ros2_hw2/build/number_converter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/li/ros2_hw2/install/number_converter:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/li/ros2_hw2/install/number_converter_py:/opt/ros/jazzy'}), 'shell': False}
+[0.043780] (number_converter) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.062736] (number_converter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.100489] (-) TimerEvent: {}
+[0.115542] (number_converter) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.117599] (number_converter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.147715] (number_converter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.169826] (number_converter) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.201917] (-) TimerEvent: {}
+[0.302156] (-) TimerEvent: {}
+[0.367994] (number_converter) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.402266] (-) TimerEvent: {}
+[0.437788] (number_converter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.502361] (-) TimerEvent: {}
+[0.521033] (number_converter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.521952] (number_converter) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.603555] (-) TimerEvent: {}
+[0.698295] (number_converter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[0.704839] (-) TimerEvent: {}
+[0.712232] (number_converter) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.746840] (number_converter) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.757144] (number_converter) StdoutLine: {'line': b'-- Build files have been written to: /home/li/ros2_hw2/build/number_converter\n'}
+[0.785100] (number_converter) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.792869] (number_converter) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_number_converter\n'}
+[0.804964] (-) TimerEvent: {}
+[0.905163] (-) TimerEvent: {}
+[0.913265] (number_converter) StdoutLine: {'line': b'[  2%] Built target number_converter__rosidl_generator_type_description\n'}
+[0.919795] (number_converter) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.926184] (number_converter) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.005257] (-) TimerEvent: {}
+[1.011356] (number_converter) StdoutLine: {'line': b'running egg_info\n'}
+[1.020943] (number_converter) StdoutLine: {'line': b'writing number_converter.egg-info/PKG-INFO\n'}
+[1.021232] (number_converter) StdoutLine: {'line': b'writing dependency_links to number_converter.egg-info/dependency_links.txt\n'}
+[1.021496] (number_converter) StdoutLine: {'line': b'writing top-level names to number_converter.egg-info/top_level.txt\n'}
+[1.052818] (number_converter) StdoutLine: {'line': b"reading manifest file 'number_converter.egg-info/SOURCES.txt'\n"}
+[1.053241] (number_converter) StdoutLine: {'line': b"writing manifest file 'number_converter.egg-info/SOURCES.txt'\n"}
+[1.071523] (number_converter) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_number_converter_egg\n'}
+[1.105378] (-) TimerEvent: {}
+[1.106172] (number_converter) StdoutLine: {'line': b'[  8%] Built target number_converter__cpp\n'}
+[1.119094] (number_converter) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/number_converter__rosidl_generator_c.dir/rosidl_generator_c/number_converter/srv/detail/roman_to_decimal__type_support.c.o\x1b[0m\n'}
+[1.119217] (number_converter) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/number_converter__rosidl_generator_c.dir/rosidl_generator_c/number_converter/srv/detail/roman_to_decimal__description.c.o\x1b[0m\n'}
+[1.119255] (number_converter) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/number_converter__rosidl_generator_c.dir/rosidl_generator_c/number_converter/srv/detail/roman_to_decimal__functions.c.o\x1b[0m\n'}
+[1.205491] (-) TimerEvent: {}
+[1.217193] (number_converter) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libnumber_converter__rosidl_generator_c.so\x1b[0m\n'}
+[1.245368] (number_converter) StdoutLine: {'line': b'[ 20%] Built target number_converter__rosidl_generator_c\n'}
+[1.253085] (number_converter) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.253368] (number_converter) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.253482] (number_converter) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.253588] (number_converter) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.255804] (number_converter) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.305769] (-) TimerEvent: {}
+[1.406034] (-) TimerEvent: {}
+[1.437938] (number_converter) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/number_converter__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/number_converter/srv/roman_to_decimal__type_support.cpp.o\x1b[0m\n'}
+[1.457176] (number_converter) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/number_converter__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/number_converter/srv/detail/roman_to_decimal__type_support.cpp.o\x1b[0m\n'}
+[1.474866] (number_converter) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/number_converter__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/number_converter/srv/detail/roman_to_decimal__type_support.c.o\x1b[0m\n'}
+[1.494596] (number_converter) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/number_converter__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/number_converter/srv/detail/dds_fastrtps/roman_to_decimal__type_support.cpp.o\x1b[0m\n'}
+[1.506135] (-) TimerEvent: {}
+[1.510344] (number_converter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/number_converter__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/number_converter/srv/detail/roman_to_decimal__type_support_c.cpp.o\x1b[0m\n'}
+[1.528729] (number_converter) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libnumber_converter__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.554647] (number_converter) StdoutLine: {'line': b'[ 52%] Built target number_converter__rosidl_typesupport_introspection_c\n'}
+[1.560826] (number_converter) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.606324] (-) TimerEvent: {}
+[1.706894] (-) TimerEvent: {}
+[1.771575] (number_converter) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/number_converter__rosidl_typesupport_c.dir/rosidl_typesupport_c/number_converter/srv/roman_to_decimal__type_support.cpp.o\x1b[0m\n'}
+[1.807050] (-) TimerEvent: {}
+[1.817388] (number_converter) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libnumber_converter__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.859924] (number_converter) StdoutLine: {'line': b'[ 61%] Built target number_converter__rosidl_typesupport_c\n'}
+[1.875442] (number_converter) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libnumber_converter__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.907240] (-) TimerEvent: {}
+[1.943562] (number_converter) StdoutLine: {'line': b'[ 64%] Built target number_converter__rosidl_typesupport_cpp\n'}
+[2.007503] (-) TimerEvent: {}
+[2.020670] (number_converter) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libnumber_converter__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.021353] (number_converter) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libnumber_converter__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.076757] (number_converter) StdoutLine: {'line': b'[ 70%] Built target number_converter__rosidl_typesupport_introspection_cpp\n'}
+[2.081589] (number_converter) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libnumber_converter__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.081952] (number_converter) StdoutLine: {'line': b'[ 73%] Built target number_converter__rosidl_typesupport_fastrtps_c\n'}
+[2.108976] (-) TimerEvent: {}
+[2.129195] (number_converter) StdoutLine: {'line': b'[ 73%] Built target number_converter__rosidl_typesupport_fastrtps_cpp\n'}
+[2.141357] (number_converter) StdoutLine: {'line': b'[ 73%] Built target number_converter\n'}
+[2.153594] (number_converter) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.209101] (-) TimerEvent: {}
+[2.309854] (-) TimerEvent: {}
+[2.362042] (number_converter) StdoutLine: {'line': b'[ 76%] Built target number_converter__py\n'}
+[2.375450] (number_converter) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/number_converter__rosidl_generator_py.dir/rosidl_generator_py/number_converter/srv/_roman_to_decimal_s.c.o\x1b[0m\n'}
+[2.413457] (-) TimerEvent: {}
+[2.466302] (number_converter) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libnumber_converter__rosidl_generator_py.so\x1b[0m\n'}
+[2.494343] (number_converter) StdoutLine: {'line': b'[ 82%] Built target number_converter__rosidl_generator_py\n'}
+[2.512746] (number_converter) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/number_converter_s__rosidl_typesupport_c.dir/rosidl_generator_py/number_converter/_number_converter_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.512907] (number_converter) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/number_converter_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/number_converter/_number_converter_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.512966] (number_converter) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/number_converter_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/number_converter/_number_converter_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.513663] (-) TimerEvent: {}
+[2.586765] (number_converter) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/number_converter/number_converter_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.586890] (number_converter) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/number_converter/number_converter_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.591510] (number_converter) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/number_converter/number_converter_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.606083] (number_converter) StdoutLine: {'line': b'[100%] Built target number_converter_s__rosidl_typesupport_introspection_c\n'}
+[2.606439] (number_converter) StdoutLine: {'line': b'[100%] Built target number_converter_s__rosidl_typesupport_c\n'}
+[2.612129] (number_converter) StdoutLine: {'line': b'[100%] Built target number_converter_s__rosidl_typesupport_fastrtps_c\n'}
+[2.613775] (-) TimerEvent: {}
+[2.620891] (number_converter) CommandEnded: {'returncode': 0}
+[2.621105] (number_converter) JobProgress: {'identifier': 'number_converter', 'progress': 'install'}
+[2.626448] (number_converter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/li/ros2_hw2/build/number_converter'], 'cwd': '/home/li/ros2_hw2/build/number_converter', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'li', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/li/ros2_hw2/install/number_converter/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/li', 'OLDPWD': '/home/li/ros2_hw2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2234', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/li/ros2_hw2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'li', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'li', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/li:@/tmp/.ICE-unix/2201,unix/li:/tmp/.ICE-unix/2201', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4b0f3d75_514b_4b92_b6f6_4a045af1b4ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4D3PM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.128', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/li/ros2_hw2/install/number_converter_py:/home/li/ros2_hw2/install/number_converter:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/li/ros2_hw2/build/number_converter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/li/ros2_hw2/install/number_converter:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/li/ros2_hw2/install/number_converter_py:/opt/ros/jazzy'}), 'shell': False}
+[2.631376] (number_converter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.631596] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/ament_index/resource_index/rosidl_interfaces/number_converter\n'}
+[2.631942] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/share/number_converter/srv/RomanToDecimal.json\n'}
+[2.632094] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter\n'}
+[2.632153] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv\n'}
+[2.632186] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail\n'}
+[2.632359] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__description.c\n'}
+[2.632405] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__functions.c\n'}
+[2.632444] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__type_support.c\n'}
+[2.632483] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__functions.h\n'}
+[2.632524] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__type_support.h\n'}
+[2.632809] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__struct.h\n'}
+[2.632862] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/roman_to_decimal.h\n'}
+[2.632892] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg\n'}
+[2.632922] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.632950] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/library_path.sh\n'}
+[2.633039] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/library_path.dsv\n'}
+[2.633119] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_generator_c.so\n'}
+[2.633160] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_generator_c.so" to ""\n'}
+[2.633191] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter\n'}
+[2.633235] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv\n'}
+[2.633267] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail\n'}
+[2.633365] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633416] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg\n'}
+[2.633449] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.633534] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_fastrtps_c.so\n'}
+[2.633837] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.633883] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter\n'}
+[2.633924] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv\n'}
+[2.633981] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail\n'}
+[2.634233] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__type_support.c\n'}
+[2.634280] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__rosidl_typesupport_introspection_c.h\n'}
+[2.634310] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg\n'}
+[2.634339] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.634370] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_introspection_c.so\n'}
+[2.634658] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.634702] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_c.so\n'}
+[2.634923] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_c.so" to ""\n'}
+[2.634976] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter\n'}
+[2.635005] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv\n'}
+[2.635089] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/roman_to_decimal.hpp\n'}
+[2.635130] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail\n'}
+[2.635235] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__struct.hpp\n'}
+[2.635279] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__traits.hpp\n'}
+[2.635369] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__type_support.hpp\n'}
+[2.635483] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__builder.hpp\n'}
+[2.635523] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg\n'}
+[2.635646] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.635818] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter\n'}
+[2.635860] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv\n'}
+[2.635889] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail\n'}
+[2.635918] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/dds_fastrtps\n'}
+[2.635978] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.636033] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg\n'}
+[2.636150] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.636206] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.636367] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.636409] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter\n'}
+[2.636481] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv\n'}
+[2.636511] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail\n'}
+[2.636540] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.636571] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/include/number_converter/number_converter/srv/detail/roman_to_decimal__type_support.cpp\n'}
+[2.636783] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_introspection_cpp.so\n'}
+[2.637319] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.637817] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_cpp.so\n'}
+[2.637859] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_typesupport_cpp.so" to ""\n'}
+[2.638146] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/pythonpath.sh\n'}
+[2.638200] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/pythonpath.dsv\n'}
+[2.638229] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter-0.0.0-py3.12.egg-info\n'}
+[2.638258] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[2.638286] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[2.638388] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[2.638418] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[2.638465] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter\n'}
+[2.638521] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv\n'}
+[2.638559] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv/_roman_to_decimal_s.c\n'}
+[2.638588] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv/__init__.py\n'}
+[2.638834] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv/_roman_to_decimal.py\n'}
+[2.638891] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_introspection_c.so\n'}
+[2.638920] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/_number_converter_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.638996] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/_number_converter_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.639040] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/_number_converter_s.ep.rosidl_typesupport_c.c\n'}
+[2.639070] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.639198] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_c.so\n'}
+[2.639310] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/__init__.py\n'}
+[2.665159] (number_converter) StdoutLine: {'line': b"Listing '/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter'...\n"}
+[2.665261] (number_converter) StdoutLine: {'line': b"Compiling '/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/__init__.py'...\n"}
+[2.665296] (number_converter) StdoutLine: {'line': b"Listing '/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv'...\n"}
+[2.665326] (number_converter) StdoutLine: {'line': b"Compiling '/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv/__init__.py'...\n"}
+[2.665355] (number_converter) StdoutLine: {'line': b"Compiling '/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/srv/_roman_to_decimal.py'...\n"}
+[2.668891] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.669029] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.669177] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_introspection_c.so\n'}
+[2.669382] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.669485] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_c.so\n'}
+[2.669740] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages/number_converter/number_converter_s__rosidl_typesupport_c.so" to ""\n'}
+[2.669867] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_generator_py.so\n'}
+[2.670136] (number_converter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/li/ros2_hw2/install/number_converter/lib/libnumber_converter__rosidl_generator_py.so" to ""\n'}
+[2.670203] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/share/number_converter/srv/RomanToDecimal.idl\n'}
+[2.670299] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/share/number_converter/srv/RomanToDecimal.srv\n'}
+[2.670445] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/ament_index/resource_index/package_run_dependencies/number_converter\n'}
+[2.670479] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/share/ament_index/resource_index/parent_prefix_path/number_converter\n'}
+[2.670543] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/ament_prefix_path.sh\n'}
+[2.670574] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/ament_prefix_path.dsv\n'}
+[2.670737] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/path.sh\n'}
+[2.670786] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/environment/path.dsv\n'}
+[2.670817] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/local_setup.bash\n'}
+[2.670854] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/local_setup.sh\n'}
+[2.670895] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/local_setup.zsh\n'}
+[2.670933] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/local_setup.dsv\n'}
+[2.671012] (number_converter) StdoutLine: {'line': b'-- Installing: /home/li/ros2_hw2/install/number_converter/share/number_converter/package.dsv\n'}
+[2.671224] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/ament_index/resource_index/packages/number_converter\n'}
+[2.671408] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_generator_cExport.cmake\n'}
+[2.671495] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.671575] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.671874] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.671919] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.671959] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.672017] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_cExport.cmake\n'}
+[2.672054] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.672134] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_generator_cppExport.cmake\n'}
+[2.672354] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.672407] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.672452] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.672488] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.672652] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_cppExport.cmake\n'}
+[2.672766] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converter__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.672890] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_generator_pyExport.cmake\n'}
+[2.673003] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/export_number_converter__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.673188] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/rosidl_cmake-extras.cmake\n'}
+[2.673330] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.673434] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.673788] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.673886] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.673989] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.674068] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.674189] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converterConfig.cmake\n'}
+[2.674312] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/cmake/number_converterConfig-version.cmake\n'}
+[2.674398] (number_converter) StdoutLine: {'line': b'-- Up-to-date: /home/li/ros2_hw2/install/number_converter/share/number_converter/package.xml\n'}
+[2.676832] (number_converter) CommandEnded: {'returncode': 0}
+[2.691203] (number_converter) JobEnded: {'identifier': 'number_converter', 'rc': 0}
+[2.692032] (-) EventReactorShutdown: {}

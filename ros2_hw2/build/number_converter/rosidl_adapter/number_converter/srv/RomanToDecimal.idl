@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from number_converter/srv/RomanToDecimal.srv
+// generated code does not contain a copyright notice
+
+
+module number_converter {
+  module srv {
+    struct RomanToDecimal_Request {
+      string roman_numeral;
+    };
+    struct RomanToDecimal_Response {
+      int32 decimal_value;
+
+      string message;
+    };
+  };
+};

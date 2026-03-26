@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: number-converter-py
+Version: 0.0.0
+Summary: Roman numeral service client/server
+Maintainer: li
+Maintainer-email: li@todo.todo
+License: Apache-2.0
+License-File: LICENSE

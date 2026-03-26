@@ -1,0 +1,4 @@
+string roman_numeral
+---
+int32 decimal_value
+string message

@@ -1,0 +1,42 @@
+[0.739s] Invoking command in '/home/li/ros2_hw2/src/number_converter_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/ros2_hw2/build/number_converter_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/number_converter_py build --build-base /home/li/ros2_hw2/build/number_converter_py/build install --record /home/li/ros2_hw2/build/number_converter_py/install.log --single-version-externally-managed install_data
+[0.937s] running egg_info
+[0.937s] creating ../../build/number_converter_py/number_converter_py.egg-info
+[0.945s] writing ../../build/number_converter_py/number_converter_py.egg-info/PKG-INFO
+[0.945s] writing dependency_links to ../../build/number_converter_py/number_converter_py.egg-info/dependency_links.txt
+[0.945s] writing entry points to ../../build/number_converter_py/number_converter_py.egg-info/entry_points.txt
+[0.945s] writing requirements to ../../build/number_converter_py/number_converter_py.egg-info/requires.txt
+[0.945s] writing top-level names to ../../build/number_converter_py/number_converter_py.egg-info/top_level.txt
+[0.945s] writing manifest file '../../build/number_converter_py/number_converter_py.egg-info/SOURCES.txt'
+[0.964s] reading manifest file '../../build/number_converter_py/number_converter_py.egg-info/SOURCES.txt'
+[0.964s] adding license file 'LICENSE'
+[0.964s] writing manifest file '../../build/number_converter_py/number_converter_py.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.965s] running build_py
+[0.965s] creating /home/li/ros2_hw2/build/number_converter_py/build
+[0.965s] creating /home/li/ros2_hw2/build/number_converter_py/build/lib
+[0.966s] creating /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py
+[0.966s] copying number_converter_py/server.py -> /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py
+[0.966s] copying number_converter_py/__init__.py -> /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py
+[0.966s] copying number_converter_py/client.py -> /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py
+[0.966s] running install
+[0.971s] running install_lib
+[0.980s] creating /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py
+[0.980s] copying /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py/server.py -> /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py
+[0.980s] copying /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py/__init__.py -> /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py
+[0.980s] copying /home/li/ros2_hw2/build/number_converter_py/build/lib/number_converter_py/client.py -> /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py
+[0.981s] byte-compiling /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py/server.py to server.cpython-312.pyc
+[0.981s] byte-compiling /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py/__init__.py to __init__.cpython-312.pyc
+[0.981s] byte-compiling /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py/client.py to client.cpython-312.pyc
+[0.981s] running install_data
+[0.981s] creating /home/li/ros2_hw2/install/number_converter_py/share/ament_index
+[0.981s] creating /home/li/ros2_hw2/install/number_converter_py/share/ament_index/resource_index
+[0.981s] creating /home/li/ros2_hw2/install/number_converter_py/share/ament_index/resource_index/packages
+[0.982s] copying resource/number_converter_py -> /home/li/ros2_hw2/install/number_converter_py/share/ament_index/resource_index/packages
+[0.982s] copying package.xml -> /home/li/ros2_hw2/install/number_converter_py/share/number_converter_py
+[0.982s] running install_egg_info
+[0.992s] Copying ../../build/number_converter_py/number_converter_py.egg-info to /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py-0.0.0-py3.12.egg-info
+[0.992s] running install_scripts
+[1.070s] Installing roman_client script to /home/li/ros2_hw2/install/number_converter_py/lib/number_converter_py
+[1.071s] Installing roman_server script to /home/li/ros2_hw2/install/number_converter_py/lib/number_converter_py
+[1.071s] writing list of installed files to '/home/li/ros2_hw2/build/number_converter_py/install.log'
+[1.086s] Invoked command in '/home/li/ros2_hw2/src/number_converter_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/ros2_hw2/build/number_converter_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/number_converter_py build --build-base /home/li/ros2_hw2/build/number_converter_py/build install --record /home/li/ros2_hw2/build/number_converter_py/install.log --single-version-externally-managed install_data
