@@ -1,0 +1,27 @@
+[0.203s] Invoking command in '/home/li/ros2_hw2/src/number_converter_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/ros2_hw2/build/number_converter_py/pytest.xml --junit-prefix=number_converter_py -o cache_dir=/home/li/ros2_hw2/build/number_converter_py/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.382s] [1m============================= test session starts ==============================[0m
+[0.383s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.386s] cachedir: /home/li/ros2_hw2/build/number_converter_py/.pytest_cache
+[0.386s] rootdir: /home/li/ros2_hw2/src/number_converter_py
+[0.386s] plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0
+[0.531s] [1mcollecting ... [0m[1m
+[0.531s] collected 9 items                                                              [0m
+[0.531s] 
+[0.536s] test/test_copyright.py [33ms[0m[32m                                                 [ 11%][0m
+[0.617s] test/test_flake8.py [32m.[0m[33m                                                    [ 22%][0m
+[0.755s] test/test_hw3_client.py [32m.[0m[32m.[0m[32m.[0m[33m                                              [ 55%][0m
+[0.795s] test/test_hw3_server.py [32m.[0m[32m.[0m[32m.[0m[33m                                              [ 88%][0m
+[0.815s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[0.815s] 
+[0.815s] [33m=============================== warnings summary ===============================[0m
+[0.816s] test/test_flake8.py::test_flake8
+[0.816s] test/test_flake8.py::test_flake8
+[0.816s] test/test_flake8.py::test_flake8
+[0.816s] test/test_flake8.py::test_flake8
+[0.816s] test/test_flake8.py::test_flake8
+[0.816s]   Warning: This process (pid=10428) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[0.816s] 
+[0.816s] -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[0.816s] -- generated xml file: /home/li/ros2_hw2/build/number_converter_py/pytest.xml --
+[0.816s] [33m=================== [32m8 passed[0m, [33m[1m1 skipped[0m, [33m[1m5 warnings[0m[33m in 0.43s[0m[33m ===================[0m
+[0.987s] Invoked command in '/home/li/ros2_hw2/src/number_converter_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/ros2_hw2/build/number_converter_py/pytest.xml --junit-prefix=number_converter_py -o cache_dir=/home/li/ros2_hw2/build/number_converter_py/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

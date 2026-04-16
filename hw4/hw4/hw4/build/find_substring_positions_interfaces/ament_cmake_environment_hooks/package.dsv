@@ -1,0 +1,4 @@
+source;share/find_substring_positions_interfaces/local_setup.bash
+source;share/find_substring_positions_interfaces/local_setup.dsv
+source;share/find_substring_positions_interfaces/local_setup.sh
+source;share/find_substring_positions_interfaces/local_setup.zsh

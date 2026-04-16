@@ -1,0 +1,26 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/li/ros2_hw2/build/number_converter_py/.pytest_cache
+rootdir: /home/li/ros2_hw2/src/number_converter_py
+plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0
+[1mcollecting ... [0m[1m
+collected 9 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 11%][0m
+test/test_flake8.py [32m.[0m[33m                                                    [ 22%][0m
+test/test_hw3_client.py [32m.[0m[32m.[0m[32m.[0m[33m                                              [ 55%][0m
+test/test_hw3_server.py [32m.[0m[31mF[0m[32m.[0m[31m                                              [ 88%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m__________________________ test_server_valid_request ___________________________[0m
+[1m[31mtest/test_hw3_server.py[0m:43: in test_server_valid_request
+    [94massert[39;49;00m actual[[33m'[39;49;00m[33mresp[39;49;00m[33m'[39;49;00m].decimal_value == [94m15[39;49;00m[90m[39;49;00m
+[1m[31mE   AssertionError: assert 14 == 15[0m
+[1m[31mE    +  where 14 = number_converter.srv.RomanToDecimal_Response(decimal_value=14, message='').decimal_value[0m
+----------------------------- Captured stderr call -----------------------------
+[INFO] [1776327566.395669069] [roman_server]: "XIV" -> 14
+-- generated xml file: /home/li/ros2_hw2/build/number_converter_py/pytest.xml --
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_hw3_server.py::[1mtest_server_valid_request[0m - AssertionError: assert 14 == 15
+[31m============== [31m[1m1 failed[0m, [32m7 passed[0m, [33m1 skipped[0m, [33m5 warnings[0m[31m in 0.43s[0m[31m ==============[0m

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: find-substring-positions-nodes
+Version: 0.0.1
+Summary: Action server/client for substring search (HW4).
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache-2.0

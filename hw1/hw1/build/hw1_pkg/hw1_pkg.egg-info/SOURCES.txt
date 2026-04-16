@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hw1_pkg/hw1_pkg.egg-info/PKG-INFO
+../../build/hw1_pkg/hw1_pkg.egg-info/SOURCES.txt
+../../build/hw1_pkg/hw1_pkg.egg-info/dependency_links.txt
+../../build/hw1_pkg/hw1_pkg.egg-info/entry_points.txt
+../../build/hw1_pkg/hw1_pkg.egg-info/requires.txt
+../../build/hw1_pkg/hw1_pkg.egg-info/top_level.txt
+hw1_pkg/__init__.py
+hw1_pkg/even_number_publisher.py
+hw1_pkg/prime_divisors_subscriber.py
+resource/hw1_pkg
+test/test_hw2_publisher.py
+test/test_hw2_subscriber.py

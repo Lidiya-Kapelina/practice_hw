@@ -1,0 +1,15 @@
+[0.194s] Invoking command in '/home/li/hw1/src/hw1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/hw1/build/hw1_pkg/pytest.xml --junit-prefix=hw1_pkg -o cache_dir=/home/li/hw1/build/hw1_pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.371s] [1m============================= test session starts ==============================[0m
+[0.371s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.374s] cachedir: /home/li/hw1/build/hw1_pkg/.pytest_cache
+[0.374s] rootdir: /home/li/hw1/src/hw1_pkg
+[0.376s] plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0
+[0.489s] [1mcollecting ... [0m[1m
+[0.489s] collected 4 items                                                              [0m
+[0.489s] 
+[6.622s] test/test_hw2_publisher.py [32m.[0m[32m.[0m[32m                                            [ 50%][0m
+[12.686s] test/test_hw2_subscriber.py [32m.[0m[32m.[0m[32m                                           [100%][0m
+[12.686s] 
+[12.686s] ---------- generated xml file: /home/li/hw1/build/hw1_pkg/pytest.xml -----------
+[12.687s] [32m============================== [32m[1m4 passed[0m[32m in 12.31s[0m[32m ==============================[0m
+[12.875s] Invoked command in '/home/li/hw1/src/hw1_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/hw1/build/hw1_pkg/pytest.xml --junit-prefix=hw1_pkg -o cache_dir=/home/li/hw1/build/hw1_pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

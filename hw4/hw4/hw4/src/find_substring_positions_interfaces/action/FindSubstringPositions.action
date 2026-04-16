@@ -1,0 +1,6 @@
+string text
+string substring
+---
+int32[] positions
+---
+int32 position

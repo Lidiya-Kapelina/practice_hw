@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Feedback",
+      "fields": [
+        {
+          "name": "position",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Feedback",
+      "hash_string": "RIHS01_41b49e92552dab82b004122c22d52cf6a696cc2ef0c124b1080b47311d52050e"
+    }
+  ]
+}

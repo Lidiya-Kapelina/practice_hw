@@ -1,0 +1,532 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Feedback",
+        "fields": [
+          {
+            "name": "position",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Goal",
+        "fields": [
+          {
+            "name": "text",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "substring",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Result",
+        "fields": [
+          {
+            "name": "positions",
+            "type": {
+              "type_id": 150,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions",
+      "hash_string": "RIHS01_5abe161063096fcb0fc49e56baa7e0a2e397356c13e80817215a62fe049f8309"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Feedback",
+      "hash_string": "RIHS01_41b49e92552dab82b004122c22d52cf6a696cc2ef0c124b1080b47311d52050e"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_FeedbackMessage",
+      "hash_string": "RIHS01_148b013ed3e3e2f177694ce55a5b993b6922d5e2b0a478c677cf134b7690dd5b"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult",
+      "hash_string": "RIHS01_f8e5d04d527225435a88056d062ffce95126d7db193255b78f7a206299195daf"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Event",
+      "hash_string": "RIHS01_ec125ada828bf419234b5f3c6c1292520c6b93c7305390ac48ba8c8d4b0b1af4"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Request",
+      "hash_string": "RIHS01_e18510f94233086ade2771aa14967eda38867e34c8a04fc74be72e2162dfc206"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_GetResult_Response",
+      "hash_string": "RIHS01_0ce32314eedca3bbae8dae38f2a9d0edc6a8f509eb8fbb4aebba014c3e38a37d"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Goal",
+      "hash_string": "RIHS01_bacf54f0f05809b12b33cd505f634eb928801b0bd5c8d586ab327b4fb04c53bf"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_Result",
+      "hash_string": "RIHS01_e2c28554f6861bf097c66013b9ddcda20dae760d5faea0b0e961119a75290b70"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal",
+      "hash_string": "RIHS01_716f6191a78cf654d0f1ebf5df8a55634a08c9356b382c3da1fb63d3d8decfed"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Event",
+      "hash_string": "RIHS01_244364b8f64e126baae94a0ee3da88ec0ac5dc78f7dd2bb096e7e1fc1f1cb862"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Request",
+      "hash_string": "RIHS01_88f5188ece385103ec5a1dc798191cb206b08f840bdd6ba86b38fa9ed537aef8"
+    },
+    {
+      "type_name": "find_substring_positions_interfaces/action/FindSubstringPositions_SendGoal_Response",
+      "hash_string": "RIHS01_2bff5ec67c59e1f709f6a8813b9813549d6113b102a057fd92d711eee96ba43e"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[0.684s] Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes': AMENT_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages:/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/build --no-deps symlink_data
+[0.936s] running develop
+[1.030s] running egg_info
+[1.030s] creating find_substring_positions_nodes.egg-info
+[1.038s] writing find_substring_positions_nodes.egg-info/PKG-INFO
+[1.038s] writing dependency_links to find_substring_positions_nodes.egg-info/dependency_links.txt
+[1.038s] writing entry points to find_substring_positions_nodes.egg-info/entry_points.txt
+[1.038s] writing requirements to find_substring_positions_nodes.egg-info/requires.txt
+[1.039s] writing top-level names to find_substring_positions_nodes.egg-info/top_level.txt
+[1.039s] writing manifest file 'find_substring_positions_nodes.egg-info/SOURCES.txt'
+[1.058s] reading manifest file 'find_substring_positions_nodes.egg-info/SOURCES.txt'
+[1.059s] writing manifest file 'find_substring_positions_nodes.egg-info/SOURCES.txt'
+[1.076s] running build_ext
+[1.076s] Creating /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages/find-substring-positions-nodes.egg-link (link to .)
+[1.077s] Installing find_substring_positions_client script to /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/find_substring_positions_nodes
+[1.077s] Installing find_substring_positions_server script to /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/find_substring_positions_nodes
+[1.077s] 
+[1.077s] Installed /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes
+[1.078s] running symlink_data
+[1.078s] creating /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/ament_index
+[1.078s] creating /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/ament_index/resource_index
+[1.078s] creating /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/ament_index/resource_index/packages
+[1.078s] symbolically linking /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/resource/find_substring_positions_nodes -> /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/ament_index/resource_index/packages
+[1.078s] symbolically linking /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/package.xml -> /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes
+[1.099s] Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes' returned '0': AMENT_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages:/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/build --no-deps symlink_data

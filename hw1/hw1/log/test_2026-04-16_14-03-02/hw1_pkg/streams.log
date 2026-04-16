@@ -1,0 +1,9 @@
+[0.191s] Invoking command in '/home/li/hw1/src/hw1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/hw1/build/hw1_pkg/pytest.xml --junit-prefix=hw1_pkg -o cache_dir=/home/li/hw1/build/hw1_pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.370s] [1m============================= test session starts ==============================[0m
+[0.370s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.373s] cachedir: /home/li/hw1/build/hw1_pkg/.pytest_cache
+[0.373s] rootdir: /home/li/hw1/src/hw1_pkg
+[0.373s] plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0
+[0.494s] [1mcollecting ... [0m[1m
+[0.494s] collected 4 items                                                              [0m
+[0.494s] 

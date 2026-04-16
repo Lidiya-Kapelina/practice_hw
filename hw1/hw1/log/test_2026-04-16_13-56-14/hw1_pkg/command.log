@@ -1,0 +1,2 @@
+Invoking command in '/home/li/hw1/src/hw1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+Invoked command in '/home/li/hw1/src/hw1_pkg' returned '5': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

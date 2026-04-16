@@ -1,0 +1,27 @@
+[0.745s] Invoking command in '/home/li/hw1/src/hw1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/hw1/build/hw1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw1_pkg build --build-base /home/li/hw1/build/hw1_pkg/build install --record /home/li/hw1/build/hw1_pkg/install.log --single-version-externally-managed
+[1.004s] running egg_info
+[1.012s] writing ../../build/hw1_pkg/hw1_pkg.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../../build/hw1_pkg/hw1_pkg.egg-info/dependency_links.txt
+[1.012s] writing entry points to ../../build/hw1_pkg/hw1_pkg.egg-info/entry_points.txt
+[1.013s] writing requirements to ../../build/hw1_pkg/hw1_pkg.egg-info/requires.txt
+[1.013s] writing top-level names to ../../build/hw1_pkg/hw1_pkg.egg-info/top_level.txt
+[1.033s] reading manifest file '../../build/hw1_pkg/hw1_pkg.egg-info/SOURCES.txt'
+[1.034s] writing manifest file '../../build/hw1_pkg/hw1_pkg.egg-info/SOURCES.txt'
+[1.034s] running build
+[1.034s] running build_py
+[1.034s] copying hw1_pkg/even_number_publisher.py -> /home/li/hw1/build/hw1_pkg/build/lib/hw1_pkg
+[1.034s] copying hw1_pkg/prime_divisors_subscriber.py -> /home/li/hw1/build/hw1_pkg/build/lib/hw1_pkg
+[1.035s] running install
+[1.038s] running install_lib
+[1.048s] copying /home/li/hw1/build/hw1_pkg/build/lib/hw1_pkg/even_number_publisher.py -> /home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg
+[1.048s] copying /home/li/hw1/build/hw1_pkg/build/lib/hw1_pkg/prime_divisors_subscriber.py -> /home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg
+[1.049s] byte-compiling /home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg/even_number_publisher.py to even_number_publisher.cpython-312.pyc
+[1.049s] byte-compiling /home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg/prime_divisors_subscriber.py to prime_divisors_subscriber.cpython-312.pyc
+[1.050s] running install_egg_info
+[1.061s] removing '/home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg-0.1.0-py3.12.egg-info' (and everything under it)
+[1.061s] Copying ../../build/hw1_pkg/hw1_pkg.egg-info to /home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg-0.1.0-py3.12.egg-info
+[1.062s] running install_scripts
+[1.152s] Installing even_number_publisher script to /home/li/hw1/install/hw1_pkg/lib/hw1_pkg
+[1.152s] Installing prime_divisors_subscriber script to /home/li/hw1/install/hw1_pkg/lib/hw1_pkg
+[1.152s] writing list of installed files to '/home/li/hw1/build/hw1_pkg/install.log'
+[1.169s] Invoked command in '/home/li/hw1/src/hw1_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/hw1/build/hw1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw1_pkg build --build-base /home/li/hw1/build/hw1_pkg/build install --record /home/li/hw1/build/hw1_pkg/install.log --single-version-externally-managed

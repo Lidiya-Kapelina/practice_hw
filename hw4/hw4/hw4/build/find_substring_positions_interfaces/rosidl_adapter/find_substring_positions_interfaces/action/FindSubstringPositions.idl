@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from find_substring_positions_interfaces/action/FindSubstringPositions.action
+// generated code does not contain a copyright notice
+
+
+module find_substring_positions_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Цель: исходная строка и искомая подстрока")
+    struct FindSubstringPositions_Goal {
+      string text;
+
+      string substring;
+    };
+    @verbatim (language="comment", text=
+      "Результат: все позиции вхождений (индексы с нуля)")
+    struct FindSubstringPositions_Result {
+      sequence<int32> positions;
+    };
+    @verbatim (language="comment", text=
+      "Обратная связь: позиция очередного найденного вхождения")
+    struct FindSubstringPositions_Feedback {
+      int32 position;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing find_substring_positions_nodes.egg-info/PKG-INFO
+writing dependency_links to find_substring_positions_nodes.egg-info/dependency_links.txt
+writing entry points to find_substring_positions_nodes.egg-info/entry_points.txt
+writing requirements to find_substring_positions_nodes.egg-info/requires.txt
+writing top-level names to find_substring_positions_nodes.egg-info/top_level.txt
+reading manifest file 'find_substring_positions_nodes.egg-info/SOURCES.txt'
+writing manifest file 'find_substring_positions_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages/find-substring-positions-nodes.egg-link (link to .)
+Installing find_substring_positions_client script to /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/find_substring_positions_nodes
+Installing find_substring_positions_server script to /home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/find_substring_positions_nodes
+
+Installed /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes
+running symlink_data

@@ -1,0 +1,212 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=5, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xee44186de2d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xee44186dcda0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xee44186dcda0>>)
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.184s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/li/Downloads/hw4/hw4'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_interfaces) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/find_substring_positions_interfaces' with type 'ros.ament_cmake' and name 'find_substring_positions_interfaces'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_substring_positions_nodes) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/find_substring_positions_nodes' with type 'ros.ament_python' and name 'find_substring_positions_nodes'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'find_substring_positions_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces', 'merge_install': False, 'path': '/home/li/Downloads/hw4/hw4/src/find_substring_positions_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'find_substring_positions_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'find_substring_positions_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes', 'merge_install': False, 'path': '/home/li/Downloads/hw4/hw4/src/find_substring_positions_nodes', 'symlink_install': True, 'test_result_base': None}
+[0.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/li/Downloads/hw4/hw4/src/find_substring_positions_interfaces' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/li/Downloads/hw4/hw4/src/find_substring_positions_interfaces'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/li/Downloads/hw4/hw4/src/find_substring_positions_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces
+[2.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/li/Downloads/hw4/hw4/src/find_substring_positions_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces
+[2.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces -- -j5 -l5
+[5.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces -- -j5 -l5
+[5.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces
+[5.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_substring_positions_interfaces)
+[5.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces
+[5.614s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces' for CMake module files
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces' for CMake config files
+[5.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_interfaces', 'cmake_prefix_path')
+[5.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/cmake_prefix_path.ps1'
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/cmake_prefix_path.dsv'
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/cmake_prefix_path.sh'
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib'
+[5.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_interfaces', 'ld_library_path_lib')
+[5.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/ld_library_path_lib.ps1'
+[5.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/ld_library_path_lib.dsv'
+[5.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/ld_library_path_lib.sh'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/bin'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/pkgconfig/find_substring_positions_interfaces.pc'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages'
+[5.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_interfaces', 'pythonpath')
+[5.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/pythonpath.ps1'
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/pythonpath.dsv'
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/pythonpath.sh'
+[5.619s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/bin'
+[5.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.ps1'
+[5.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.dsv'
+[5.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.sh'
+[5.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.bash'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.zsh'
+[5.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/colcon-core/packages/find_substring_positions_interfaces)
+[5.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_substring_positions_interfaces)
+[5.622s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces' for CMake module files
+[5.622s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces' for CMake config files
+[5.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_interfaces', 'cmake_prefix_path')
+[5.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/cmake_prefix_path.ps1'
+[5.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/cmake_prefix_path.dsv'
+[5.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/cmake_prefix_path.sh'
+[5.623s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib'
+[5.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_interfaces', 'ld_library_path_lib')
+[5.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/ld_library_path_lib.ps1'
+[5.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/ld_library_path_lib.dsv'
+[5.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/ld_library_path_lib.sh'
+[5.624s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/bin'
+[5.624s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/pkgconfig/find_substring_positions_interfaces.pc'
+[5.624s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages'
+[5.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_interfaces', 'pythonpath')
+[5.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/pythonpath.ps1'
+[5.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/pythonpath.dsv'
+[5.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/hook/pythonpath.sh'
+[5.625s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/bin'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.ps1'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.dsv'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.sh'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.bash'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.zsh'
+[5.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/colcon-core/packages/find_substring_positions_interfaces)
+[5.627s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/li/Downloads/hw4/hw4/src/find_substring_positions_nodes' with build type 'ament_python'
+[5.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_nodes', 'ament_prefix_path')
+[5.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/ament_prefix_path.ps1'
+[5.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/ament_prefix_path.dsv'
+[5.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/ament_prefix_path.sh'
+[5.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.841s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/li/Downloads/hw4/hw4/src/find_substring_positions_nodes'
+[5.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes': AMENT_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages:/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/build --no-deps symlink_data
+[6.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_nodes', 'pythonpath_develop')
+[6.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/pythonpath_develop.ps1'
+[6.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes' returned '0': AMENT_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages:/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/build --no-deps symlink_data
+[6.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/pythonpath_develop.dsv'
+[6.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/build/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/pythonpath_develop.sh'
+[6.728s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes' for CMake module files
+[6.728s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes' for CMake config files
+[6.729s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib'
+[6.729s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/bin'
+[6.729s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/pkgconfig/find_substring_positions_nodes.pc'
+[6.729s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/lib/python3.12/site-packages'
+[6.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_substring_positions_nodes', 'pythonpath')
+[6.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/pythonpath.ps1'
+[6.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/pythonpath.dsv'
+[6.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/hook/pythonpath.sh'
+[6.730s] Level 1:colcon.colcon_core.environment:checking '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/bin'
+[6.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_substring_positions_nodes)
+[6.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/package.ps1'
+[6.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/package.dsv'
+[6.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/package.sh'
+[6.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/package.bash'
+[6.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/find_substring_positions_nodes/package.zsh'
+[6.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/li/Downloads/hw4/hw4/install/find_substring_positions_nodes/share/colcon-core/packages/find_substring_positions_nodes)
+[6.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.732s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.732s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.732s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.739s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.772s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/li/Downloads/hw4/hw4/install/local_setup.ps1'
+[6.773s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/li/Downloads/hw4/hw4/install/_local_setup_util_ps1.py'
+[6.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/li/Downloads/hw4/hw4/install/setup.ps1'
+[6.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/li/Downloads/hw4/hw4/install/local_setup.sh'
+[6.775s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/li/Downloads/hw4/hw4/install/_local_setup_util_sh.py'
+[6.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/li/Downloads/hw4/hw4/install/setup.sh'
+[6.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/li/Downloads/hw4/hw4/install/local_setup.bash'
+[6.777s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/li/Downloads/hw4/hw4/install/setup.bash'
+[6.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/li/Downloads/hw4/hw4/install/local_setup.zsh'
+[6.777s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/li/Downloads/hw4/hw4/install/setup.zsh'

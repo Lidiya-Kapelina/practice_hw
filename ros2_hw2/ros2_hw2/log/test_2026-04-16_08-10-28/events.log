@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (number_converter_py) JobQueued: {'identifier': 'number_converter_py', 'dependencies': OrderedDict({'number_converter': '/home/li/ros2_hw2/install/number_converter', 'number_converter_py': '/home/li/ros2_hw2/install/number_converter_py'})}
+[0.000317] (number_converter_py) JobStarted: {'identifier': 'number_converter_py'}
+[0.099546] (-) TimerEvent: {}
+[0.200355] (-) TimerEvent: {}
+[0.220111] (number_converter_py) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/li/ros2_hw2/src/number_converter_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'li', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/li/ros2_hw2/install/number_converter/lib:/home/li/install/number_converter/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/li', 'OLDPWD': '/home/li/ros2_hw2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2133', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/li/ros2_hw2/install:/home/li/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'li', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'li', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/li:@/tmp/.ICE-unix/2101,unix/li:/tmp/.ICE-unix/2101', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d8a31cb4_afb7_4da5_8f6b_a8c817fdcf28', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FD03N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/li/ros2_hw2/install/number_converter_py:/home/li/ros2_hw2/install/number_converter:/home/li/install/number_converter_py:/home/li/install/number_converter:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/li/ros2_hw2/build/number_converter_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages:/home/li/install/number_converter_py/lib/python3.12/site-packages:/home/li/install/number_converter/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/li/ros2_hw2/install/number_converter:/home/li/install/number_converter:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/li/ros2_hw2/build/number_converter_py/pytest.xml --junit-prefix=number_converter_py -o cache_dir=/home/li/ros2_hw2/build/number_converter_py/.pytest_cache'}, 'shell': False}
+[0.301366] (-) TimerEvent: {}
+[0.400511] (number_converter_py) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.400692] (number_converter_py) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[0.401442] (-) TimerEvent: {}
+[0.404499] (number_converter_py) StdoutLine: {'line': b'cachedir: /home/li/ros2_hw2/build/number_converter_py/.pytest_cache\n'}
+[0.405631] (number_converter_py) StdoutLine: {'line': b'rootdir: /home/li/ros2_hw2/src/number_converter_py\n'}
+[0.405752] (number_converter_py) StdoutLine: {'line': b'plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0\n'}
+[0.503897] (-) TimerEvent: {}
+[0.555234] (number_converter_py) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.555362] (number_converter_py) StdoutLine: {'line': b'collected 9 items                                                              \x1b[0m\n'}
+[0.555480] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.560313] (number_converter_py) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 11%]\x1b[0m\n'}
+[0.608529] (-) TimerEvent: {}
+[0.659569] (number_converter_py) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 22%]\x1b[0m\n'}
+[0.709889] (-) TimerEvent: {}
+[0.774690] (number_converter_py) StdoutLine: {'line': b'test/test_hw3_client.py \x1b[32m.\x1b[0m\x1b[32m.\x1b[0m\x1b[32m.\x1b[0m\x1b[31m                                              [ 55%]\x1b[0m\n'}
+[0.808778] (number_converter_py) StdoutLine: {'line': b'test/test_hw3_server.py \x1b[32m.\x1b[0m\x1b[32m.\x1b[0m\x1b[32m.\x1b[0m\x1b[31m                                              [ 88%]\x1b[0m\n'}
+[0.810291] (-) TimerEvent: {}
+[0.831882] (number_converter_py) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.831996] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.832067] (number_converter_py) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.832150] (number_converter_py) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.832299] (number_converter_py) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.853284] (number_converter_py) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.853544] (number_converter_py) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 2 code style errors / warnings:\x1b[0m\n'}
+[0.853598] (number_converter_py) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./test/test_hw3_client.py:79:1: W293 blank line contains whitespace\x1b[0m\n'}
+[0.853655] (number_converter_py) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./test/test_hw3_client.py:80:1: W391 blank line at end of file\x1b[0m\n'}
+[0.853700] (number_converter_py) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.853734] (number_converter_py) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.853775] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.853818] (number_converter_py) StdoutLine: {'line': b'./test/test_hw3_client.py:79:1: W293 blank line contains whitespace\n'}
+[0.853888] (number_converter_py) StdoutLine: {'line': b'        \n'}
+[0.853950] (number_converter_py) StdoutLine: {'line': b'^\n'}
+[0.853996] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854040] (number_converter_py) StdoutLine: {'line': b'./test/test_hw3_client.py:80:1: W391 blank line at end of file\n'}
+[0.854083] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854128] (number_converter_py) StdoutLine: {'line': b'^\n'}
+[0.854170] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854249] (number_converter_py) StdoutLine: {'line': b'1     W293 blank line contains whitespace\n'}
+[0.854285] (number_converter_py) StdoutLine: {'line': b'1     W391 blank line at end of file\n'}
+[0.854319] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854412] (number_converter_py) StdoutLine: {'line': b'9 files checked\n'}
+[0.854481] (number_converter_py) StdoutLine: {'line': b'2 errors\n'}
+[0.854544] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854587] (number_converter_py) StdoutLine: {'line': b"'W'-type errors: 2\n"}
+[0.854622] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854665] (number_converter_py) StdoutLine: {'line': b'Checked files:\n'}
+[0.854705] (number_converter_py) StdoutLine: {'line': b'\n'}
+[0.854748] (number_converter_py) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.854782] (number_converter_py) StdoutLine: {'line': b'* ./test/test_hw3_client.py\n'}
+[0.854822] (number_converter_py) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.854863] (number_converter_py) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.854902] (number_converter_py) StdoutLine: {'line': b'* ./test/test_hw3_server.py\n'}
+[0.854934] (number_converter_py) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.854975] (number_converter_py) StdoutLine: {'line': b'* ./number_converter_py/server.py\n'}
+[0.855014] (number_converter_py) StdoutLine: {'line': b'* ./number_converter_py/__init__.py\n'}
+[0.855046] (number_converter_py) StdoutLine: {'line': b'* ./number_converter_py/client.py\n'}
+[0.855088] (number_converter_py) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.855177] (number_converter_py) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.855299] (number_converter_py) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.855345] (number_converter_py) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.855387] (number_converter_py) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.855436] (number_converter_py) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.855476] (number_converter_py) StderrLine: {'line': b'  Warning: This process (pid=9652) is multi-threaded, use of fork() may lead to deadlocks in the child.\n'}
+[0.855520] (number_converter_py) StderrLine: {'line': b'\n'}
+[0.855552] (number_converter_py) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n'}
+[0.855593] (number_converter_py) StdoutLine: {'line': b'-- generated xml file: /home/li/ros2_hw2/build/number_converter_py/pytest.xml --\n'}
+[0.855630] (number_converter_py) StdoutLine: {'line': b'\x1b[36m\x1b[1m=========================== short test summary info ============================\x1b[0m\n'}
+[0.855672] (number_converter_py) StdoutLine: {'line': b'\x1b[31mFAILED\x1b[0m test/test_flake8.py::\x1b[1mtest_flake8\x1b[0m - AssertionError: Found 2 code style errors / warnings:\n'}
+[0.855707] (number_converter_py) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m7 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m5 warnings\x1b[0m\x1b[31m in 0.45s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.911614] (-) TimerEvent: {}
+[1.015641] (-) TimerEvent: {}
+[1.031138] (number_converter_py) CommandEnded: {'returncode': 1}
+[1.031591] (number_converter_py) TestFailure: {'identifier': 'number_converter_py'}
+[1.031614] (number_converter_py) JobEnded: {'identifier': 'number_converter_py', 'rc': 0}
+[1.032043] (-) EventReactorShutdown: {}

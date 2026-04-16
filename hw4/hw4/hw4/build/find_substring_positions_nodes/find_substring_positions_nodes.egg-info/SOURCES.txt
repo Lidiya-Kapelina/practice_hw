@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+find_substring_positions_nodes/__init__.py
+find_substring_positions_nodes/find_substring_positions_client.py
+find_substring_positions_nodes/find_substring_positions_server.py
+find_substring_positions_nodes.egg-info/PKG-INFO
+find_substring_positions_nodes.egg-info/SOURCES.txt
+find_substring_positions_nodes.egg-info/dependency_links.txt
+find_substring_positions_nodes.egg-info/entry_points.txt
+find_substring_positions_nodes.egg-info/requires.txt
+find_substring_positions_nodes.egg-info/top_level.txt
+find_substring_positions_nodes.egg-info/zip-safe
+resource/find_substring_positions_nodes

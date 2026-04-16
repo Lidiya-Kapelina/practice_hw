@@ -1,0 +1,13 @@
+{
+  "package_name": "find_substring_positions_interfaces",
+  "output_dir": "/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces/rosidl_generator_type_description/find_substring_positions_interfaces",
+  "idl_tuples": [
+    "/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces/rosidl_adapter/find_substring_positions_interfaces:action/FindSubstringPositions.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

@@ -1,0 +1,12 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef FIND_SUBSTRING_POSITIONS_INTERFACES__ACTION__FIND_SUBSTRING_POSITIONS_HPP_
+#define FIND_SUBSTRING_POSITIONS_INTERFACES__ACTION__FIND_SUBSTRING_POSITIONS_HPP_
+
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__struct.hpp"
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__builder.hpp"
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__traits.hpp"
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.hpp"
+
+#endif  // FIND_SUBSTRING_POSITIONS_INTERFACES__ACTION__FIND_SUBSTRING_POSITIONS_HPP_

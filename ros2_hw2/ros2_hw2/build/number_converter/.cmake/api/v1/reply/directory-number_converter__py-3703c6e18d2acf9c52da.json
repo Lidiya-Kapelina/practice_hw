@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "number_converter__py",
+		"source" : "/home/li/ros2_hw2/build/number_converter/number_converter__py"
+	}
+}

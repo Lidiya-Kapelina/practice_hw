@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f866d2e6075eae4af979.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "find_substring_positions_interfaces__py",
+					"jsonFile" : "directory-find_substring_positions_interfaces__py-c64b114845055d2be040.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces/find_substring_positions_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "find_substring_positions_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_find_substring_positions_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_find_substring_positions_interfaces_egg-eb183c73df24bc18c300.json",
+					"name" : "ament_cmake_python_build_find_substring_positions_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_find_substring_positions_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_find_substring_positions_interfaces-b7b2d96e449a458db4b0.json",
+					"name" : "ament_cmake_python_symlink_find_substring_positions_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces-a9b2b7725cb1e8a099fb.json",
+					"name" : "find_substring_positions_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__cpp-d08e7d2bec4af0544227.json",
+					"name" : "find_substring_positions_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "find_substring_positions_interfaces__py::@d5190e858bff85055e3b",
+					"jsonFile" : "target-find_substring_positions_interfaces__py-d36bea2ab8dea1878930.json",
+					"name" : "find_substring_positions_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_generator_c-58d22a5edaf230e38632.json",
+					"name" : "find_substring_positions_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_generator_py-ab6e8ac5ec5561a33c04.json",
+					"name" : "find_substring_positions_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_generator_type_description-5d9ab825bd2453a220c1.json",
+					"name" : "find_substring_positions_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_typesupport_c-c2892edf57db41d9fc8a.json",
+					"name" : "find_substring_positions_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_typesupport_cpp-ec70245b7df8e3a44791.json",
+					"name" : "find_substring_positions_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c-c899b1412197fa6b60f9.json",
+					"name" : "find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cpp-de0dfc758a2a5cb8d45a.json",
+					"name" : "find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_typesupport_introspection_c-6e3e1fcd3dc5f67e90cd.json",
+					"name" : "find_substring_positions_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces__rosidl_typesupport_introspection_cpp-7d0c2dfc3e72366973d9.json",
+					"name" : "find_substring_positions_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces_s__rosidl_typesupport_c-bfc8b896a7c11a6696c2.json",
+					"name" : "find_substring_positions_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces_s__rosidl_typesupport_fastrtps_c-b5c6310c591b24e4a880.json",
+					"name" : "find_substring_positions_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces_s__rosidl_typesupport_introspection_c-1622caffd28cd23bbca6.json",
+					"name" : "find_substring_positions_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_substring_positions_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_substring_positions_interfaces_uninstall-c3c2bd53b07eb3f054c5.json",
+					"name" : "find_substring_positions_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2e50ff125b5ed63cc477.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces",
+		"source" : "/home/li/Downloads/hw4/hw4/src/find_substring_positions_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

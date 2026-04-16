@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support_c.cpp.o"
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support_c.cpp.o.d"
+  "libfind_substring_positions_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libfind_substring_positions_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/find_substring_positions_interfaces/action/detail/find_substring_positions__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

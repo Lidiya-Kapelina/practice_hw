@@ -1,0 +1,4 @@
+source;share/number_converter/local_setup.bash
+source;share/number_converter/local_setup.dsv
+source;share/number_converter/local_setup.sh
+source;share/number_converter/local_setup.zsh

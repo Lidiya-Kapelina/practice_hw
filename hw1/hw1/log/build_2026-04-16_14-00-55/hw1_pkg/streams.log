@@ -1,0 +1,21 @@
+[0.666s] Invoking command in '/home/li/hw1/src/hw1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/hw1/build/hw1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw1_pkg build --build-base /home/li/hw1/build/hw1_pkg/build install --record /home/li/hw1/build/hw1_pkg/install.log --single-version-externally-managed
+[0.854s] running egg_info
+[0.862s] writing ../../build/hw1_pkg/hw1_pkg.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../../build/hw1_pkg/hw1_pkg.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/hw1_pkg/hw1_pkg.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/hw1_pkg/hw1_pkg.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/hw1_pkg/hw1_pkg.egg-info/top_level.txt
+[0.882s] reading manifest file '../../build/hw1_pkg/hw1_pkg.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/hw1_pkg/hw1_pkg.egg-info/SOURCES.txt'
+[0.883s] running build
+[0.883s] running build_py
+[0.883s] running install
+[0.886s] running install_lib
+[0.896s] running install_egg_info
+[0.906s] removing '/home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg-0.1.0-py3.12.egg-info' (and everything under it)
+[0.906s] Copying ../../build/hw1_pkg/hw1_pkg.egg-info to /home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages/hw1_pkg-0.1.0-py3.12.egg-info
+[0.906s] running install_scripts
+[0.983s] Installing even_number_publisher script to /home/li/hw1/install/hw1_pkg/lib/hw1_pkg
+[0.984s] Installing prime_divisors_subscriber script to /home/li/hw1/install/hw1_pkg/lib/hw1_pkg
+[0.984s] writing list of installed files to '/home/li/hw1/build/hw1_pkg/install.log'
+[0.999s] Invoked command in '/home/li/hw1/src/hw1_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/hw1/build/hw1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/hw1/install/hw1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw1_pkg build --build-base /home/li/hw1/build/hw1_pkg/build install --record /home/li/hw1/build/hw1_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,121 @@
+[0.011s] Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces -- -j5 -l5
+[0.104s] [  0%] Built target ament_cmake_python_symlink_find_substring_positions_interfaces
+[0.104s] [  2%] Built target find_substring_positions_interfaces__rosidl_generator_type_description
+[0.127s] [  5%] Built target find_substring_positions_interfaces__cpp
+[0.135s] [ 20%] Built target find_substring_positions_interfaces__rosidl_generator_c
+[0.163s] [ 29%] Built target find_substring_positions_interfaces__rosidl_typesupport_introspection_c
+[0.164s] [ 47%] Built target find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.164s] [ 47%] Built target find_substring_positions_interfaces__rosidl_typesupport_c
+[0.167s] [ 55%] Built target find_substring_positions_interfaces__rosidl_typesupport_introspection_cpp
+[0.185s] [ 64%] Built target find_substring_positions_interfaces__rosidl_typesupport_fastrtps_c
+[0.185s] [ 73%] Built target find_substring_positions_interfaces__rosidl_typesupport_cpp
+[0.200s] [ 73%] Built target find_substring_positions_interfaces
+[0.219s] [ 76%] Built target find_substring_positions_interfaces__py
+[0.235s] [ 82%] Built target find_substring_positions_interfaces__rosidl_generator_py
+[0.252s] [100%] Built target find_substring_positions_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.252s] [100%] Built target find_substring_positions_interfaces_s__rosidl_typesupport_introspection_c
+[0.252s] [100%] Built target find_substring_positions_interfaces_s__rosidl_typesupport_c
+[0.419s] running egg_info
+[0.428s] writing find_substring_positions_interfaces.egg-info/PKG-INFO
+[0.428s] writing dependency_links to find_substring_positions_interfaces.egg-info/dependency_links.txt
+[0.428s] writing top-level names to find_substring_positions_interfaces.egg-info/top_level.txt
+[0.457s] reading manifest file 'find_substring_positions_interfaces.egg-info/SOURCES.txt'
+[0.457s] writing manifest file 'find_substring_positions_interfaces.egg-info/SOURCES.txt'
+[0.475s] [100%] Built target ament_cmake_python_build_find_substring_positions_interfaces_egg
+[0.483s] Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces -- -j5 -l5
+[0.490s] Invoking command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces
+[0.496s] -- Install configuration: ""
+[0.497s] -- Execute custom install script
+[0.498s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/ament_index/resource_index/rosidl_interfaces/find_substring_positions_interfaces
+[0.498s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/action/FindSubstringPositions.json
+[0.499s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__functions.h
+[0.499s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__struct.h
+[0.499s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.h
+[0.500s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/find_substring_positions.h
+[0.500s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.500s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/library_path.sh
+[0.500s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/library_path.dsv
+[0.501s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.501s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__rosidl_typesupport_introspection_c.h
+[0.501s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.501s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__builder.hpp
+[0.502s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__struct.hpp
+[0.502s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__traits.hpp
+[0.502s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.hpp
+[0.502s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/find_substring_positions.hpp
+[0.502s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.504s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/include/find_substring_positions_interfaces/find_substring_positions_interfaces/action/detail/find_substring_positions__rosidl_typesupport_introspection_cpp.hpp
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/pythonpath.sh
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/pythonpath.dsv
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[0.505s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/__init__.py
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/_find_substring_positions_interfaces_s.ep.rosidl_typesupport_c.c
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/_find_substring_positions_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/_find_substring_positions_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/action/__init__.py
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/action/_find_substring_positions.py
+[0.506s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/action/_find_substring_positions_s.c
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/find_substring_positions_interfaces_s__rosidl_typesupport_c.so
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/find_substring_positions_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/find_substring_positions_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/find_substring_positions_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/find_substring_positions_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/find_substring_positions_interfaces_s__rosidl_typesupport_c.so
+[0.507s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/action/FindSubstringPositions.idl
+[0.508s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/action/FindSubstringPositions.action
+[0.508s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/ament_index/resource_index/package_run_dependencies/find_substring_positions_interfaces
+[0.508s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/ament_index/resource_index/parent_prefix_path/find_substring_positions_interfaces
+[0.508s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/ament_prefix_path.sh
+[0.508s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/ament_prefix_path.dsv
+[0.508s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/path.sh
+[0.509s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/environment/path.dsv
+[0.509s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/local_setup.bash
+[0.509s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/local_setup.sh
+[0.509s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/local_setup.zsh
+[0.509s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/local_setup.dsv
+[0.509s] -- Symlinking: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.dsv
+[0.515s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/ament_index/resource_index/packages/find_substring_positions_interfaces
+[0.515s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.515s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.515s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.516s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.516s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.516s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.516s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.517s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfacesConfig.cmake
+[0.517s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfacesConfig-version.cmake
+[0.517s] -- Up-to-date symlink: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/package.xml
+[0.517s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_generator_c.so
+[0.518s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.518s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_typesupport_introspection_c.so
+[0.518s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_typesupport_c.so
+[0.519s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.519s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.520s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_typesupport_cpp.so
+[0.545s] Listing '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces'...
+[0.545s] Listing '/home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/python3.12/site-packages/find_substring_positions_interfaces/action'...
+[0.549s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/lib/libfind_substring_positions_interfaces__rosidl_generator_py.so
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_generator_cExport.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_cExport.cmake
+[0.550s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_generator_cppExport.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_cppExport.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/find_substring_positions_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_generator_pyExport.cmake
+[0.551s] -- Up-to-date: /home/li/Downloads/hw4/hw4/install/find_substring_positions_interfaces/share/find_substring_positions_interfaces/cmake/export_find_substring_positions_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.553s] Invoked command in '/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces

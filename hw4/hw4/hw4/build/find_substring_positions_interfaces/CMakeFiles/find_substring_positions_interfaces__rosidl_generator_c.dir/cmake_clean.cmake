@@ -1,0 +1,22 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__description.c.o"
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__description.c.o.d"
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__functions.c.o"
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__functions.c.o.d"
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.c.o"
+  "CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.c.o.d"
+  "libfind_substring_positions_interfaces__rosidl_generator_c.pdb"
+  "libfind_substring_positions_interfaces__rosidl_generator_c.so"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__description.c"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__functions.c"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__functions.h"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__struct.h"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.c"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.h"
+  "rosidl_generator_c/find_substring_positions_interfaces/action/find_substring_positions.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/find_substring_positions_interfaces__rosidl_generator_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

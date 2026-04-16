@@ -1,0 +1,3 @@
+[console_scripts]
+find_substring_positions_client = find_substring_positions_nodes.find_substring_positions_client:main
+find_substring_positions_server = find_substring_positions_nodes.find_substring_positions_server:main

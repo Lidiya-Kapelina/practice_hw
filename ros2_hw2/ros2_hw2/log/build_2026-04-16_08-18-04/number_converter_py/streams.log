@@ -1,0 +1,23 @@
+[0.630s] Invoking command in '/home/li/ros2_hw2/src/number_converter_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/ros2_hw2/build/number_converter_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/install/number_converter_py/lib/python3.12/site-packages:/home/li/install/number_converter/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/number_converter_py build --build-base /home/li/ros2_hw2/build/number_converter_py/build install --record /home/li/ros2_hw2/build/number_converter_py/install.log --single-version-externally-managed install_data
+[0.826s] running egg_info
+[0.833s] writing ../../build/number_converter_py/number_converter_py.egg-info/PKG-INFO
+[0.834s] writing dependency_links to ../../build/number_converter_py/number_converter_py.egg-info/dependency_links.txt
+[0.834s] writing entry points to ../../build/number_converter_py/number_converter_py.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../build/number_converter_py/number_converter_py.egg-info/requires.txt
+[0.835s] writing top-level names to ../../build/number_converter_py/number_converter_py.egg-info/top_level.txt
+[0.854s] reading manifest file '../../build/number_converter_py/number_converter_py.egg-info/SOURCES.txt'
+[0.854s] adding license file 'LICENSE'
+[0.855s] writing manifest file '../../build/number_converter_py/number_converter_py.egg-info/SOURCES.txt'
+[0.855s] running build
+[0.855s] running build_py
+[0.855s] running install
+[0.859s] running install_lib
+[0.869s] running install_data
+[0.869s] running install_egg_info
+[0.879s] removing '/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py-0.0.0-py3.12.egg-info' (and everything under it)
+[0.879s] Copying ../../build/number_converter_py/number_converter_py.egg-info to /home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages/number_converter_py-0.0.0-py3.12.egg-info
+[0.880s] running install_scripts
+[0.962s] Installing roman_client script to /home/li/ros2_hw2/install/number_converter_py/lib/number_converter_py
+[0.962s] Installing roman_server script to /home/li/ros2_hw2/install/number_converter_py/lib/number_converter_py
+[0.963s] writing list of installed files to '/home/li/ros2_hw2/build/number_converter_py/install.log'
+[0.984s] Invoked command in '/home/li/ros2_hw2/src/number_converter_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/li/ros2_hw2/build/number_converter_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter/lib/python3.12/site-packages:/home/li/ros2_hw2/install/number_converter_py/lib/python3.12/site-packages:/home/li/install/number_converter_py/lib/python3.12/site-packages:/home/li/install/number_converter/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/number_converter_py build --build-base /home/li/ros2_hw2/build/number_converter_py/build install --record /home/li/ros2_hw2/build/number_converter_py/install.log --single-version-externally-managed install_data

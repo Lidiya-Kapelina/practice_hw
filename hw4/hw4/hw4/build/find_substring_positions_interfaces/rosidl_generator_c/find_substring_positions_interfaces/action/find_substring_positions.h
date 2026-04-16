@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from find_substring_positions_interfaces:action/FindSubstringPositions.idl
+// generated code does not contain a copyright notice
+
+#ifndef FIND_SUBSTRING_POSITIONS_INTERFACES__ACTION__FIND_SUBSTRING_POSITIONS_H_
+#define FIND_SUBSTRING_POSITIONS_INTERFACES__ACTION__FIND_SUBSTRING_POSITIONS_H_
+
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__struct.h"
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__functions.h"
+#include "find_substring_positions_interfaces/action/detail/find_substring_positions__type_support.h"
+
+#endif  // FIND_SUBSTRING_POSITIONS_INTERFACES__ACTION__FIND_SUBSTRING_POSITIONS_H_

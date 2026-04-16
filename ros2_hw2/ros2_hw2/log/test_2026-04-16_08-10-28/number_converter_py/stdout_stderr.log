@@ -1,0 +1,64 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/li/ros2_hw2/build/number_converter_py/.pytest_cache
+rootdir: /home/li/ros2_hw2/src/number_converter_py
+plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0
+[1mcollecting ... [0m[1m
+collected 9 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 11%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 22%][0m
+test/test_hw3_client.py [32m.[0m[32m.[0m[32m.[0m[31m                                              [ 55%][0m
+test/test_hw3_server.py [32m.[0m[32m.[0m[32m.[0m[31m                                              [ 88%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[1m[31mE     ./test/test_hw3_client.py:79:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./test/test_hw3_client.py:80:1: W391 blank line at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./test/test_hw3_client.py:79:1: W293 blank line contains whitespace
+        
+^
+
+./test/test_hw3_client.py:80:1: W391 blank line at end of file
+
+^
+
+1     W293 blank line contains whitespace
+1     W391 blank line at end of file
+
+9 files checked
+2 errors
+
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./test/test_hw3_client.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+* ./test/test_hw3_server.py
+* ./test/test_pep257.py
+* ./number_converter_py/server.py
+* ./number_converter_py/__init__.py
+* ./number_converter_py/client.py
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: This process (pid=9652) is multi-threaded, use of fork() may lead to deadlocks in the child.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- generated xml file: /home/li/ros2_hw2/build/number_converter_py/pytest.xml --
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 2 code style errors / warnings:
+[31m============== [31m[1m1 failed[0m, [32m7 passed[0m, [33m1 skipped[0m, [33m5 warnings[0m[31m in 0.45s[0m[31m ==============[0m

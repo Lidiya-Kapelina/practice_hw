@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "find_substring_positions_interfaces__py",
+		"source" : "/home/li/Downloads/hw4/hw4/build/find_substring_positions_interfaces/find_substring_positions_interfaces__py"
+	}
+}

@@ -1,0 +1,64 @@
+[0.199s] Invoking command in '/home/li/ros2_hw2/src/number_converter_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/ros2_hw2/build/number_converter_py/pytest.xml --junit-prefix=number_converter_py -o cache_dir=/home/li/ros2_hw2/build/number_converter_py/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.363s] [1m============================= test session starts ==============================[0m
+[0.363s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.367s] cachedir: /home/li/ros2_hw2/build/number_converter_py/.pytest_cache
+[0.368s] rootdir: /home/li/ros2_hw2/src/number_converter_py
+[0.368s] plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-flake8-0.17.4, ament-xmllint-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, colcon-core-0.20.1, cov-4.1.0
+[0.518s] [1mcollecting ... [0m[1m
+[0.518s] collected 9 items                                                              [0m
+[0.518s] 
+[0.522s] test/test_copyright.py [33ms[0m[32m                                                 [ 11%][0m
+[0.619s] test/test_flake8.py [31mF[0m[31m                                                    [ 22%][0m
+[0.742s] test/test_hw3_client.py [32m.[0m[32m.[0m[32m.[0m[31m                                              [ 55%][0m
+[0.775s] test/test_hw3_server.py [32m.[0m[32m.[0m[32m.[0m[31m                                              [ 88%][0m
+[0.797s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.797s] 
+[0.797s] =================================== FAILURES ===================================
+[0.797s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.797s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.820s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.821s] [1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[0.821s] [1m[31mE     ./test/test_hw3_client.py:79:1: W293 blank line contains whitespace[0m
+[0.822s] [1m[31mE     ./test/test_hw3_client.py:79:5: W292 no newline at end of file[0m
+[0.822s] [1m[31mE   assert 1 == 0[0m
+[0.823s] ----------------------------- Captured stdout call -----------------------------
+[0.823s] 
+[0.823s] ./test/test_hw3_client.py:79:1: W293 blank line contains whitespace
+[0.823s]     ^
+[0.823s] 
+[0.824s] ./test/test_hw3_client.py:79:5: W292 no newline at end of file
+[0.824s]         ^
+[0.824s] 
+[0.824s] 1     W292 no newline at end of file
+[0.825s] 1     W293 blank line contains whitespace
+[0.825s] 
+[0.825s] 9 files checked
+[0.825s] 2 errors
+[0.825s] 
+[0.825s] 'W'-type errors: 2
+[0.826s] 
+[0.826s] Checked files:
+[0.826s] 
+[0.826s] * ./setup.py
+[0.826s] * ./test/test_hw3_client.py
+[0.827s] * ./test/test_copyright.py
+[0.827s] * ./test/test_flake8.py
+[0.827s] * ./test/test_hw3_server.py
+[0.827s] * ./test/test_pep257.py
+[0.827s] * ./number_converter_py/server.py
+[0.827s] * ./number_converter_py/__init__.py
+[0.828s] * ./number_converter_py/client.py
+[0.828s] -- generated xml file: /home/li/ros2_hw2/build/number_converter_py/pytest.xml --
+[0.828s] [36m[1m=========================== short test summary info ============================[0m
+[0.828s] [31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 2 code style errors / warnings:
+[0.828s] [31m============== [31m[1m1 failed[0m, [32m7 passed[0m, [33m1 skipped[0m, [33m5 warnings[0m[31m in 0.46s[0m[31m ==============[0m
+[0.828s] [33m=============================== warnings summary ===============================[0m
+[0.829s] test/test_flake8.py::test_flake8
+[0.829s] test/test_flake8.py::test_flake8
+[0.829s] test/test_flake8.py::test_flake8
+[0.829s] test/test_flake8.py::test_flake8
+[0.829s] test/test_flake8.py::test_flake8
+[0.830s]   Warning: This process (pid=10173) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[0.830s] 
+[0.830s] -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[1.003s] Invoked command in '/home/li/ros2_hw2/src/number_converter_py' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/ros2_hw2/build/number_converter_py/pytest.xml --junit-prefix=number_converter_py -o cache_dir=/home/li/ros2_hw2/build/number_converter_py/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

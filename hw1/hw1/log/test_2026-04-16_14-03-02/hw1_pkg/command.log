@@ -1,0 +1,1 @@
+Invoking command in '/home/li/hw1/src/hw1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/li/hw1/build/hw1_pkg/pytest.xml --junit-prefix=hw1_pkg -o cache_dir=/home/li/hw1/build/hw1_pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

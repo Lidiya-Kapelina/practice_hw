@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "number_converter/srv/RomanToDecimal_Response",
+      "fields": [
+        {
+          "name": "decimal_value",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "number_converter/srv/RomanToDecimal_Response",
+      "hash_string": "RIHS01_2ba913e5a4932834c92a4a73b045187ebe62154719b98ea99aa3eb5627b78b9f"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "number_converter",
+  "non_idl_tuples": [
+    "/home/li/ros2_hw2/src/number_converter:srv/RomanToDecimal.srv"
+  ]
+}
